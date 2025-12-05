@@ -4,7 +4,7 @@ Magic Hour AI is an end-to-end **AI video generator** and **AI image generator**
 It provides **face swap**, **image-to-video**, **video-to-video**, **text-to-video**, **AI headshots**, **AI avatars**, **AI voice tools**, and dozens of specialized **AI art generators** and **free AI photo editors**.
 
 This Docker image gives you a reproducible environment to integrate Magic Hour into backends, automate pipelines, and batch-generate content using Magic Hour’s web tools and APIs.
-
+ 
 ---
 
 ## 🌐 Main Entry Points
