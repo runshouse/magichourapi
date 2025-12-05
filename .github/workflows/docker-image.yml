@@ -21,7 +21,9 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ magichourapi }}
+          # hard-code username
+          username: magichourapi
+          # you named the secret DOCKER, so reference secrets.DOCKER
           password: ${{ secrets.DOCKER }}
 
       - name: Build and push
